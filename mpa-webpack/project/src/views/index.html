@@ -1,0 +1,15 @@
+{% extends './layout.html' %}
+{% block styles%}
+<link rel="stylesheet" href="/index.css">
+{% endblock%}
+
+{% block content %}
+<h1>{{message}}</h1>
+{% include "../components/banner/banner.html"%}
+{% endblock%}
+
+{% block scripts %}
+<script>
+	console.log("init")
+</script>
+{% endblock%}
