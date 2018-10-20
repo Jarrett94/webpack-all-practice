@@ -1,1 +1,2 @@
-import("./banner.css")
+// import("./banner.css")
+console.log("banner")
